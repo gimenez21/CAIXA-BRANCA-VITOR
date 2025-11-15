@@ -1,4 +1,4 @@
-# 🧪 Análise de Caixa Branca – Método `verificarUsuario`
+Análise de Caixa Branca – Método `verificarUsuario`
 
 Este repositório contém a análise estrutural do método `verificarUsuario()` utilizando **técnicas de Caixa Branca**, incluindo:
 
@@ -8,14 +8,14 @@ Este repositório contém a análise estrutural do método `verificarUsuario()` 
 - Exemplos de validação / invalidação  
 - Tabela resumo da análise
 
----
-## 📌 Planilha 
+
+ Planilha 
 
 <img width="698" height="663" alt="image" src="https://github.com/user-attachments/assets/02949b3b-6f22-4cba-8bbc-079682f50e13" />
 
 
 
-## 📌 Estrutura do Grafo (Nós)
+Estrutura do Grafo (Nós)
 
 <img width="853" height="1280" alt="image" src="https://github.com/user-attachments/assets/939213ad-facf-4139-9a23-70170a19ba81" />
 
@@ -34,9 +34,9 @@ O grafo do método contém os seguintes nós:
 9. **N9** – Caminho quando não existe resultado → `result = false`  
 10. **N10** – Retorno final (`return result`)
 
----
 
-## 🔢 Cálculo da Complexidade Ciclomática
+
+Cálculo da Complexidade Ciclomática
 
 A fórmula usada foi:
 
@@ -79,19 +79,19 @@ Listando as transições do grafo:
 Portanto E = 10.
 
 
-### ✔️ Resultado
+ Resultado
 
 ```
 M = 10 - 10 + 2(1) = 2
 ---
 ```
-## 📌 Caminhos Basicos
+Caminhos Basicos
 
 Caminhos Básicos do Método verificarUsuario
 Como a complexidade ciclomática foi 2, isso significa que o grafo possui dois caminhos independentes.
 Eles representam os dois possíveis resultados do teste lógico rs.next().
 ________________________________________
-🔵 Caminho Básico 1 — Usuário ENCONTRADO
+Caminho Básico 1 — Usuário ENCONTRADO
 Fluxo completo quando a consulta retorna um registro válido:
 N1 → N2 → N3 → N4 → N5 → N6 → N7 → N8 → N10
 Explicação:
@@ -100,7 +100,7 @@ Explicação:
 •	O código atualiza result = true e busca o nome do usuário
 •	Por fim retorna result
 ________________________________________
-🔴 Caminho Básico 2 — Usuário NÃO encontrado
+Caminho Básico 2 — Usuário NÃO encontrado
 Fluxo do programa quando o banco não retorna nenhum valor:
 N1 → N2 → N3 → N4 → N5 → N9 → N10
 Explicação:
