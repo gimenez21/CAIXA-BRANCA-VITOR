@@ -11,12 +11,14 @@ Este repositório contém a análise estrutural do método `verificarUsuario()` 
 ---
 ## 📌 Planilha 
 
-<img width="846" height="596" alt="Planilha correta vermelha e azul caixa branca" src="https://github.com/user-attachments/assets/65ede8de-c896-4c38-be43-55a73cbd655d" />
+<img width="698" height="663" alt="image" src="https://github.com/user-attachments/assets/02949b3b-6f22-4cba-8bbc-079682f50e13" />
+
 
 
 ## 📌 Estrutura do Grafo (Nós)
 
-<img width="886" height="1329" alt="image" src="https://github.com/user-attachments/assets/541fa127-d088-4d2b-a09c-146852c312cd" />
+<img width="853" height="1280" alt="image" src="https://github.com/user-attachments/assets/939213ad-facf-4139-9a23-70170a19ba81" />
+
 
 
 O grafo do método contém os seguintes nós:
@@ -108,16 +110,5 @@ Explicação:
 •	O método retorna esse valor  
 
 
-## PHPmyadmin:
-
-<img width="1019" height="418" alt="image" src="https://github.com/user-attachments/assets/33c2a4f7-ea2f-4931-8cac-09a487a120dc" />
-
-## Valido 
-
-<img width="1020" height="498" alt="image" src="https://github.com/user-attachments/assets/c2a4ffc1-fdbc-4c1f-b9c7-eb9ef6f2cca5" />
-
-## Invalido 
-
-<img width="1082" height="528" alt="image" src="https://github.com/user-attachments/assets/2ed3435d-94aa-4457-b686-6c9769096615" />
 
 
